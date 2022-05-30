@@ -38,3 +38,14 @@ Assesment 2
     
     Valid Shape: 4x4
     Same Shape: 6x6
+    
+    
+ Assesment 3
+  
+  What is max pooling? (Give a brief, 1-sentence description)
+  
+    Aggresive Down sampling, ie : pulls maximum within window size, reduces parameters
+  
+  If I apply pooling of 2 (2,2 window with a stride of 2) to a (6,6) array, what is the resulting size?
+  
+    3x3
