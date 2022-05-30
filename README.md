@@ -11,4 +11,30 @@ Assesment 1
   What happens to your train and test results if you add 5 hidden layers with 128 neurons each?
   
     The performance of the model improves greately, but the runtime drasticlly increases
+    
 
+Assesment 2
+  
+  What is a response layer? (Give a brief, 1-sentence description)
+  
+    The response layer is the filtered layers after convolution.
+  
+  Given the filter shape of (26, 26, 32), what does each number represent?
+  
+    First two being dimensions (Height and Width) third being the amount of filters
+  
+  Given 6x6 input and filter of (3,3): what is the response shape that we get? 
+  
+    4x4
+  
+  Given (33, 33, 1) input and filter of (2,2): what is the response shape that we get? 
+ 
+    32x32
+  
+  What is the difference between ‘valid’ and ‘same’ padding? Given 6x6 input and filter of (3,3), what are the response shapes for both options? 
+
+    Valid: padding disabled
+    Same: output size will be made equal to input
+    
+    Valid Shape: 4x4
+    Same Shape: 6x6
