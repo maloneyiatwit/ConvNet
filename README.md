@@ -67,4 +67,16 @@ Assesment 2
   
   Solve for the padding (P), in terms of I, F, and S, if we want the input and output size to remain the same. 
 
-   P = ((S-1)*I-S+F)/2
+    P = ((S-1)*I-S+F)/2
+
+
+Assesment 5
+
+  What can we use the ImageDataGenerator for? What can it help us fight? (Give a brief, 1-sentence description)
+  
+    You can use ImageDataGemerate to augment image data in real time while the model is training. Fights memory loss
+  
+  What is a better idea: To use one larger kernel (8,8) or multiple stacked smaller ones, 4x(2,2)? Why? Show the number of weights for each option.
+
+    Better to use multiple stacked smaller kernals because it reduces the cost of computation for the model, as well as weight shares, which leads to lesser weights
+   
